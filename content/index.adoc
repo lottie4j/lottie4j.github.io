@@ -1,0 +1,7 @@
+= Lottie4J
+
+:jbake-type: normalBase
+:jbake-description: Information about the Lottie4J project
+:jbake-priority: 1.0
+:showtitle:
+
