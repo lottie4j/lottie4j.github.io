@@ -4,6 +4,7 @@
 <#assign _uri = uri/>
 <!DOCTYPE html>
 <html lang="${(content.lang)!"en"}">
+
 <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsId}"></script>
     <script>
@@ -17,7 +18,6 @@
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>${"BeJUG - " + _title}</title>
     <meta content="${_description}" name="description">
-<#--    <link href="${"https://bejug.org/" + _uri}" rel="canonical">-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
           integrity="sha256-IUOUHAPazai08QFs7W4MbzTlwEWFo7z/4zw8YmxEiko=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
