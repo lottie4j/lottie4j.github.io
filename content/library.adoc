@@ -1,0 +1,30 @@
+= Lottie4J Java Library
+:jbake-type: normalBase
+:jbake-description: Information about the Lottie4J project
+:jbake-priority: 1.0
+:showtitle:
+
+== Project structure
+
+This project consists of different modules to make it easier to maintain and use only the required components when used in an application.
+
+=== Core
+
+* Contains objects matching the Lottie data model.
+* Can read and write Lottie files (JSON (almost finished) and ZIP (TODO)).
+* Uses records for the data objects, partially based on the solution provided
+in https://stackoverflow.com/questions/74890806/parse-json-to-java-records-with-fasterxml-jackson/74891785#74891785[this StackOverflow question].
+
+=== FXPlayer
+
+TODO
+
+== IDE settings
+
+To run the JavaFX Demo application, the JavaFX runtime is needed. You can install this separately by downloading it from the https://gluonhq.com/products/javafx/[Gluon website], or use a JDK which has JavaFX included, for instance Azul Zulu.
+
+```
+$ sdk install java 17.0.3.fx-zulu
+```
+
+In your IDE select this SDK as the runtime for your project.

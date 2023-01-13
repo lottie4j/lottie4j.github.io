@@ -1,6 +1,37 @@
-= Lottie4J
+= Lottie4J Project
 :jbake-type: normalBase
 :jbake-description: Information about the Lottie4J project
 :jbake-priority: 1.0
 :showtitle:
+
+== Goal of the Lottie4J project
+
+Provide a set of Java libraries that can
+
+* Parse existing Lottie animations to Java objects.
+* Generate Lottie files from Java objects.
+* Play Lottie animations in JavaFX.
+* And achieve this by using a recent Java version with the use of Records to minimize the code and make the project easy to maintain, test, and extend.
+
+There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie]) but this is aiming for native Android integration, not recent Java versions and/or JavaFX.
+
+== What are Lottie files?
+
+As described on https://lottiefiles.com/what-is-lottie[lottiefiles.com/what-is-lottie]:
+
+**A Lottie is a JSON-based animation file format that allows you to ship animations on any platform as easily as shipping static assets. They are small files that work on any device and can scale up or down without pixelation. LottieFiles lets you create, edit, test, collaborate on and ship a Lottie in the easiest way possible.**
+
+=== Lottie file format
+
+Two formats are used:
+
+. Json files that define animations:
+** The top level object https://lottiefiles.github.io/lottie-docs/animation/[Animation] is described here with click-through to all possible child data.
+** The full schema is available on https://lottiefiles.github.io/lottie-docs/schema/lottie.schema.json
+. dotLottie: ZIP based including one or more json, manifext and other related files, see https://dotlottie.io/structure/#dotlottie-structure[the structure as described in the official documentation].
+
+=== Creating Lottie animations
+
+Adobe AfterEffects is used a lot to create Lottie animations. But there is a free alternative: https://www.haikuanimator.com/[Haiku] that was turned
+into https://www.haikuanimator.com/blog/open-source[an opensource project in August 2021]`.`
 
