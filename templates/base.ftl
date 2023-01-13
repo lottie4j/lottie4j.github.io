@@ -29,7 +29,8 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light border-bottom shadow">
         <div class="container">
             <a class="navbar-brand" href="${content.rootpath}">
-                <img alt="Lottie4J logo" src="${content.rootpath}logo.png" height="40px">
+                Lottie4J
+                <!-- <img alt="Lottie4J logo" src="${content.rootpath}logo.png" height="40px"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,8 +40,8 @@
                     <li class="nav-item"><a class="nav-link" href="${content.rootpath}index.html">Home</a></li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li class="p-2"><a style="color: #55acee" href="https://foojay.social/@lottie4j" role="button"><i class="fa-brands fa-mastodon"></i></a></li>
-                    <li class="p-2"><a style="color: #333" href="https://github.com/lottie4j" role="button"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="p-2"><a style="color: #55acee" href="https://foojay.social/@lottie4j" role="button" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
+                    <li class="p-2"><a style="color: #333" href="https://github.com/lottie4j" role="button" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
             </div>
         </div>
