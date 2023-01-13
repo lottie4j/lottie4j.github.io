@@ -9,9 +9,6 @@
         <div class="col-md-9">
             <#nested>
         </div>
-        <div class="col-md-3">
-            <@macros.latestEvents/>
-        </div>
     </div>
 </@parent.layout>
 </#macro>
