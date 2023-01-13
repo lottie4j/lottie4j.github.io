@@ -5,8 +5,8 @@
 
 <#macro layout>
     <@parent.layout
-    title="The Belgium Java User Group"
-    description="Join the Belgium Java User Group"
+    title="Lottie4J"
+    description="Java library to handle Lottie files"
     uri="">
         <div class="text-center">
             <div class="m-4">

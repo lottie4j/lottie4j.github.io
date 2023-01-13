@@ -12,12 +12,12 @@
     </script>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>BeJUG - 404 Page not found</title>
+    <title>Lottie4J - 404 Page not found</title>
 </head>
 <body>
 <h1>The requested page does not exist</h1>
 <p>
-    <a href="${config.canonicalBaseUrl}">Return the BeJUG website.</a>
+    <a href="${config.canonicalBaseUrl}">Return to the website.</a>
 </p>
 </body>
 </html>
