@@ -40,7 +40,7 @@
                     <li class="nav-item"><a class="nav-link" href="${content.rootpath}index.html">Home</a></li>
                 </ul>
                 <ul class="navbar-nav">
-                    <li class="p-2"><a style="color: #55acee" href="https://foojay.social/@lottie4j" role="button" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
+                    <li class="p-2"><a style="color: #55acee" href="https://foojay.social/@lottie4j" rel="me" role="button" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
                     <li class="p-2"><a style="color: #333" href="https://github.com/lottie4j" role="button" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
             </div>
