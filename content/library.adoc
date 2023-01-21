@@ -1,6 +1,6 @@
 = Lottie4J Java Library
 :jbake-type: normalBase
-:jbake-description: Information about the Lottie4J project
+:jbake-description: Information about the Lottie4J library code
 :jbake-priority: 1.0
 :showtitle:
 
@@ -17,7 +17,11 @@ in https://stackoverflow.com/questions/74890806/parse-json-to-java-records-with-
 
 === FXPlayer
 
-TODO
+JavaFX component to play Lottie animations (TODO).
+
+=== FXDemo
+
+Demo application demonstrating the use of FXPlayer.
 
 == IDE settings
 

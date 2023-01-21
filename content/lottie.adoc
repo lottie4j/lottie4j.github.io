@@ -1,0 +1,29 @@
+= Lottie file and animation format
+:jbake-type: normalBase
+:jbake-description: Information about the Lottie file and animation format
+:jbake-priority: 1.0
+:showtitle:
+
+== What are Lottie files?
+
+As described on https://lottiefiles.com/what-is-lottie[lottiefiles.com/what-is-lottie]:
+
+**_A Lottie is a JSON-based animation file format that allows you to ship animations on any platform as easily as shipping static assets. They are small files that work on any device and can scale up or down without pixelation. LottieFiles lets you create, edit, test, collaborate on and ship a Lottie in the easiest way possible._**
+
+=== Lottie file format
+
+Two formats are used:
+
+. Json files that define animations:
+** The top level object https://lottiefiles.github.io/lottie-docs/animation/[Animation] is described here with click-through to all possible child data.
+** The full schema is available on https://lottiefiles.github.io/lottie-docs/schema/lottie.schema.json
+. dotLottie: ZIP based including one or more json, manifext and other related files, see https://dotlottie.io/structure/#dotlottie-structure[the structure as described in the official documentation].
+
+=== Creating Lottie animations
+
+Adobe AfterEffects is used a lot to create Lottie animations. But there is a free alternative: https://www.haikuanimator.com/[Haiku] that was turned
+into https://www.haikuanimator.com/blog/open-source[an opensource project in August 2021]`.`
+
+1. Haiku Animator: https://www.haikuanimator.com/
+2. Flow: https://createwithflow.com/
+3. Syfig Studio: https://www.synfig.org/
