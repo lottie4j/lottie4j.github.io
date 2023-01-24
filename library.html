@@ -46,46 +46,57 @@
     </nav>
 
     <div class="container py-4">
-<h1>Lottie4J Project</h1>
+<h1>Lottie4J Java Library</h1>
 <div class="sect1">
-<h2 id="_goal_of_the_lottie4j_project">Goal of the Lottie4J project</h2>
+<h2 id="_project_structure">Project structure</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Provide a set of Java libraries that can</p>
+<p>This project consists of different modules to make it easier to maintain and use only the required components when used in an application.</p>
 </div>
+<div class="sect2">
+<h3 id="_core">Core</h3>
 <div class="ulist">
 <ul>
 <li>
-<p>Parse existing Lottie animations to Java objects.</p>
+<p>Contains objects matching the Lottie data model.</p>
 </li>
 <li>
-<p>Generate Lottie files from Java objects.</p>
+<p>Can read and write Lottie files (JSON (almost finished) and ZIP (TODO)).</p>
 </li>
 <li>
-<p>Play Lottie animations in JavaFX.</p>
-</li>
-<li>
-<p>And achieve this by using a recent Java version with the use of Records to minimize the code and make the project easy to maintain, test, and extend.</p>
+<p>Uses records for the data objects, partially based on the solution provided
+in <a href="https://stackoverflow.com/questions/74890806/parse-json-to-java-records-with-fasterxml-jackson/74891785#74891785">this StackOverflow question</a>.</p>
 </li>
 </ul>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_fxplayer">FXPlayer</h3>
 <div class="paragraph">
-<p>There is a Lottie Android project (see <a href="https://github.com/LottieFiles/awesome-lottie">awesome-lottie</a>) but this is aiming for native Android integration, not recent Java versions and/or JavaFX.</p>
+<p>JavaFX component to play Lottie animations (TODO).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_fxdemo">FXDemo</h3>
+<div class="paragraph">
+<p>Demo application demonstrating the use of FXPlayer.</p>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_more_info">More info &#8230;&#8203;</h2>
+<h2 id="_ide_settings">IDE settings</h2>
 <div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="lottie.adoc">About the Lottie image and animation format</a></p>
-</li>
-<li>
-<p><a href="library.adoc">About the Lottie4J project and libraries</a></p>
-</li>
-</ul>
+<div class="paragraph">
+<p>To run the JavaFX Demo application, the JavaFX runtime is needed. You can install this separately by downloading it from the <a href="https://gluonhq.com/products/javafx/">Gluon website</a>, or use a JDK which has JavaFX included, for instance Azul Zulu.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-none hljs">$ sdk install java 17.0.3.fx-zulu</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>In your IDE select this SDK as the runtime for your project.</p>
 </div>
 </div>
 </div>    </div>

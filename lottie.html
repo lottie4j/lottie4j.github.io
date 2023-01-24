@@ -46,46 +46,61 @@
     </nav>
 
     <div class="container py-4">
-<h1>Lottie4J Project</h1>
+<h1>Lottie file and animation format</h1>
 <div class="sect1">
-<h2 id="_goal_of_the_lottie4j_project">Goal of the Lottie4J project</h2>
+<h2 id="_what_are_lottie_files">What are Lottie files?</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Provide a set of Java libraries that can</p>
+<p>As described on <a href="https://lottiefiles.com/what-is-lottie">lottiefiles.com/what-is-lottie</a>:</p>
 </div>
+<div class="paragraph">
+<p><strong><em>A Lottie is a JSON-based animation file format that allows you to ship animations on any platform as easily as shipping static assets. They are small files that work on any device and can scale up or down without pixelation. LottieFiles lets you create, edit, test, collaborate on and ship a Lottie in the easiest way possible.</em></strong></p>
+</div>
+<div class="sect2">
+<h3 id="_lottie_file_format">Lottie file format</h3>
+<div class="paragraph">
+<p>Two formats are used:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Json files that define animations:</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Parse existing Lottie animations to Java objects.</p>
+<p>The top level object <a href="https://lottiefiles.github.io/lottie-docs/animation/">Animation</a> is described here with click-through to all possible child data.</p>
 </li>
 <li>
-<p>Generate Lottie files from Java objects.</p>
-</li>
-<li>
-<p>Play Lottie animations in JavaFX.</p>
-</li>
-<li>
-<p>And achieve this by using a recent Java version with the use of Records to minimize the code and make the project easy to maintain, test, and extend.</p>
+<p>The full schema is available on <a href="https://lottiefiles.github.io/lottie-docs/schema/lottie.schema.json" class="bare">https://lottiefiles.github.io/lottie-docs/schema/lottie.schema.json</a></p>
 </li>
 </ul>
 </div>
+</li>
+<li>
+<p>dotLottie: ZIP based including one or more json, manifext and other related files, see <a href="https://dotlottie.io/structure/#dotlottie-structure">the structure as described in the official documentation</a>.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_creating_lottie_animations">Creating Lottie animations</h3>
 <div class="paragraph">
-<p>There is a Lottie Android project (see <a href="https://github.com/LottieFiles/awesome-lottie">awesome-lottie</a>) but this is aiming for native Android integration, not recent Java versions and/or JavaFX.</p>
+<p>Adobe AfterEffects is used a lot to create Lottie animations. But there is a free alternative: <a href="https://www.haikuanimator.com/">Haiku</a> that was turned
+into <a href="https://www.haikuanimator.com/blog/open-source">an opensource project in August 2021</a><code>.</code></p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_more_info">More info &#8230;&#8203;</h2>
-<div class="sectionbody">
-<div class="ulist">
-<ul>
+<div class="olist arabic">
+<ol class="arabic">
 <li>
-<p><a href="lottie.adoc">About the Lottie image and animation format</a></p>
+<p>Haiku Animator: <a href="https://www.haikuanimator.com/" class="bare">https://www.haikuanimator.com/</a></p>
 </li>
 <li>
-<p><a href="library.adoc">About the Lottie4J project and libraries</a></p>
+<p>Flow: <a href="https://createwithflow.com/" class="bare">https://createwithflow.com/</a></p>
 </li>
-</ul>
+<li>
+<p>Syfig Studio: <a href="https://www.synfig.org/" class="bare">https://www.synfig.org/</a></p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 </div>    </div>
