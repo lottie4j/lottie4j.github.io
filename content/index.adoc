@@ -15,10 +15,15 @@ Provide a set of Java libraries that can
 
 There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie]) but this is aiming for native Android integration, not recent Java versions and/or JavaFX.
 
-== Current status
+== Current status on 20230124
 
-* Core: can load multiple JSON files, not all yet
+* Core: can already load many different JSON files
+** But not all yet...
+** To be added to the unit tests and the model needs to be further extended
+** See https://github.com/lottie4j/lottie4j/blob/main/core/src/test/java/com/lottie4j/core/handler/FileLoaderTest.java#L38[FileLoaderTest.java#L38]
 * FXPlayer: very basic visualizer
+** Can read a basic Lottie JSON file and draw the paths
+** See below with https://github.com/lottie4j/lottie4j/blob/main/fxdemo/src/main/java/com/lottie4j/fxdemo/DemoApplication.java[DemoApplication.java] showing the original Lottie on the left, and the very first JavaFX generated image on the right.
 
 image::/img/20230124_fxplayer_status.png[Status of Lottie4J JavaFX player on 20230123]
 
