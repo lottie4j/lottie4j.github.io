@@ -15,6 +15,11 @@ Provide a set of Java libraries that can
 
 There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie]) but this is aiming for native Android integration, not recent Java versions and/or JavaFX.
 
+== Current status
+
+* Core: can load multiple JSON files, not all yet
+* FXPlayer: very basic visualizer
+
 == More info ...
 
 * link:lottie.adoc[About the Lottie image and animation format]
