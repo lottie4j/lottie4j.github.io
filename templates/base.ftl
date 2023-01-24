@@ -6,13 +6,6 @@
 <html lang="${(content.lang)!"en"}">
 
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=${config.googleAnalyticsId}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '${config.googleAnalyticsId}');
-    </script>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>${"Lottie4J - " + _title}</title>
@@ -52,7 +45,7 @@
         <#nested>
 
         <hr />
-        Last website build: ${published_date?string("dd/MM/yyyy HH:mm")}
+        Last website build: ${published_date?string("dd/MM/yyyy HH:mm")} (UTC)
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"
