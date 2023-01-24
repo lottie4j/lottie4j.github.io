@@ -50,6 +50,9 @@
 
     <div class="container py-4">
         <#nested>
+
+        <hr />
+        ${published_date}
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"
