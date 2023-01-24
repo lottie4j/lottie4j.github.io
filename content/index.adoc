@@ -20,6 +20,8 @@ There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lo
 * Core: can load multiple JSON files, not all yet
 * FXPlayer: very basic visualizer
 
+image::/img/20230124_fxplayer_status.png
+
 == More info ...
 
 * link:lottie.adoc[About the Lottie image and animation format]
