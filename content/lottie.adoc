@@ -1,5 +1,5 @@
 = Lottie file and animation format
-:jbake-type: normalBase
+:jbake-type: page
 :jbake-description: Information about the Lottie file and animation format
 :jbake-priority: 1.0
 :showtitle:

@@ -1,5 +1,5 @@
 = Lottie4J Java Library
-:jbake-type: normalBase
+:jbake-type: page
 :jbake-description: Information about the Lottie4J library code
 :jbake-priority: 1.0
 :showtitle:

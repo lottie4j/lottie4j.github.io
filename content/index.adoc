@@ -1,5 +1,5 @@
 = Lottie4J Project
-:jbake-type: normalBase
+:jbake-type: page
 :jbake-description: Information about the Lottie4J project
 :jbake-priority: 1.0
 :showtitle:
