@@ -52,7 +52,7 @@
         <#nested>
 
         <hr />
-        Last website build: ${published_date?string("dd/MM/yyyy")}
+        Latest website build: ${published_date?string("dd/MM/yyyy")}
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"
