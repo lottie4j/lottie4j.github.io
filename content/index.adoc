@@ -13,8 +13,6 @@ Provide a set of Java libraries that can
 * Play Lottie animations in JavaFX.
 * And achieve this by using a recent Java version with the use of Records to minimize the code and make the project easy to maintain, test, and extend.
 
-There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie]) but this is aiming for native Android integration, not recent Java versions and/or JavaFX.
-
 == Current status on 20230124
 
 * Core: can already load many different JSON files
@@ -31,3 +29,8 @@ image::/img/20230124_fxplayer_status.png[Status of Lottie4J JavaFX player on 202
 
 * link:lottie.adoc[About the Lottie image and animation format]
 * link:library.adoc[About the Lottie4J project and libraries]
+
+== Competition
+
+* There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie]) that is aiming for native Android integration, not recent Java versions and/or JavaFX.
+* https://rive.app/[Rive] is a new standard for interactive graphics. It seems to have the same goals as LottieFiles, but it seems to be based on a subscription model.
