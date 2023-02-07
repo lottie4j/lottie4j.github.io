@@ -3,19 +3,19 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://lottie4j.github.io/lottie.html</loc>
-        <lastmod>2023-01-25</lastmod>
+        <lastmod>2023-02-07</lastmod>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://lottie4j.github.io/index.html</loc>
-        <lastmod>2023-01-25</lastmod>
+        <lastmod>2023-02-07</lastmod>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
     </url>
     <url>
         <loc>https://lottie4j.github.io/library.html</loc>
-        <lastmod>2023-01-25</lastmod>
+        <lastmod>2023-02-07</lastmod>
         <priority>1.0</priority>
         <changefreq>monthly</changefreq>
     </url>
