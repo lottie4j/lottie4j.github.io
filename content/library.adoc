@@ -32,3 +32,8 @@ $ sdk install java 17.0.3.fx-zulu
 ```
 
 In your IDE select this SDK as the runtime for your project.
+
+== Competition
+
+* There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie^]) that is aiming for native Android integration, not recent Java versions and/or JavaFX.
+* https://rive.app/[Rive^] is a new standard for interactive graphics. It seems to have the same goals as LottieFiles, but it seems to be based on a subscription model.
