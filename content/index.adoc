@@ -19,8 +19,10 @@ Provide a set of Java libraries that can
 
 Based on a https://github.com/lottie4j/lottie4j/commit/28cefb9c8ba59ef420954c39ae9d8ade838d8e90#diff-166d070cf182766be173a83b3675cb8ab2eaac80eea301d965f9af7c455fd3ac[LottieFile with an animation^], created with https://createwithflow.com[Flow^], the Bezier object needed to be extended in two different objects: FixedBezier and AnimatedBezier.
 
-* Core: FixedBezier and AnimatedBezier
-* FXPlayer and FXDemo:
+* Core
+** Added FixedBezier and AnimatedBezier with BezierDeserializer
+** Extended unit tests
+* FXPlayer and FXDemo
 ** Loading of initial test file
 ** Position, colors, strokes... still to be done
 
