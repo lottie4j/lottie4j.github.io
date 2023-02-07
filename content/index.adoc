@@ -13,7 +13,20 @@ Provide a set of Java libraries that can
 * Play Lottie animations in JavaFX.
 * And achieve this by using a recent Java version with the use of Records to minimize the code and make the project easy to maintain, test, and extend.
 
-== Current status on 20230124
+== Current status
+
+=== 20230206
+
+Based on a https://github.com/lottie4j/lottie4j/commit/28cefb9c8ba59ef420954c39ae9d8ade838d8e90#diff-166d070cf182766be173a83b3675cb8ab2eaac80eea301d965f9af7c455fd3ac[LottieFile with an animation], created with https://createwithflow.com[Flow], the Bezier object needed to be extended in two different objects: FixedBezier and AnimatedBezier.
+
+* Core: FixedBezier and AnimatedBezier
+* FXPlayer and FXDemo:
+** Loading of initial test file
+** Position, colors, strokes... still to be done
+
+image::/img/20230206_animation_loaded.png[Loaded animation file and start of generating the first frame]
+
+=== 20230124
 
 * Core: can already load many different JSON files
 ** But not all yet...
@@ -34,3 +47,4 @@ image::/img/20230124_fxplayer_status.png[Status of Lottie4J JavaFX player on 202
 
 * There is a Lottie Android project (see https://github.com/LottieFiles/awesome-lottie[awesome-lottie]) that is aiming for native Android integration, not recent Java versions and/or JavaFX.
 * https://rive.app/[Rive] is a new standard for interactive graphics. It seems to have the same goals as LottieFiles, but it seems to be based on a subscription model.
+* https://www.fable.app/[Fable] animation tool that can export as Lottie.

@@ -25,9 +25,10 @@ Two formats are used:
 
 === Creating Lottie animations
 
-Adobe AfterEffects is used a lot to create Lottie animations. But there is a free alternative: https://www.haikuanimator.com/[Haiku] that was turned
-into https://www.haikuanimator.com/blog/open-source[an opensource project in August 2021]`.`
+* LottieFiles is working on an editor "Lottie Creator", you can https://lottiefiles.com/lottie-creator[join the waiting list].
+* https://createwithflow.com/[Flow has a free animation tool], but to be able to export to LottieFiles, you need a licensed version, starting from 99$/year. *The test files and animations for the Lottie4J project are created with a free education version that was provided by Flow, thanks!*
+* https://www.haikuanimator.com/[Haiku], a project that became
+into https://www.haikuanimator.com/blog/open-source[opensource in August 2021].
+* Adobe AfterEffects is probably used the most to create Lottie animations, but this is expensive software. On top of that, Adobe should be used with care (*).
 
-1. Haiku Animator: https://www.haikuanimator.com/
-2. Flow: https://createwithflow.com/
-3. Syfig Studio: https://www.synfig.org/
+(*): a personal note... one day I was a heavy user of all Adobe software. Flash (by FutureSplash, acquired by Macromedia, acquired by Adobe) was my introduction into multimedia and I learned a lot by using it, even for business applications with Flex. But since that time, many years ago, Adobe turned into an evil company. From personal experience and what people share online, you need to be aware they have both a https://www.reddit.com/r/assholedesign/comments/10946en/forgot_to_cancel_my_free_trial_for_adobe_now_they/[bad reputation for how difficult it can be to cancel a (trial) subscription], and https://www.quora.com/Is-Adobe-spying-on-you-with-their-software?share=1[their software should be handled as spyware]. There are extremely good alternatives, which are free or cheaper. For instance, instead of Photoshop, try the online https://www.photopea.com/[Photopea].
