@@ -32,4 +32,16 @@ into https://www.haikuanimator.com/blog/open-source[opensource in August 2021^].
 * https://www.fable.app/[Fable^] is an animation tool that can export as Lottie.
 * Adobe AfterEffects is probably used the most to create Lottie animations, but this is expensive software. On top of that, Adobe should be used with care (*).
 
-(*): this is a personal note... one day I was a heavy user of all Adobe software. Flash (by FutureSplash, acquired by Macromedia, acquired by Adobe) was my introduction into multimedia and I learned a lot by using it, even for business applications with Flex. But since that time, many years ago, Adobe turned into an evil company. From personal experience and what people share online, you need to be aware they have both a https://www.reddit.com/r/assholedesign/comments/10946en/forgot_to_cancel_my_free_trial_for_adobe_now_they/[bad reputation for how difficult it can be to cancel a (trial) subscription^], and https://www.quora.com/Is-Adobe-spying-on-you-with-their-software?share=1[their software should be handled as spyware^]. There are extremely good alternatives, which are free or cheaper. For instance, instead of Photoshop, try the online https://www.photopea.com/[Photopea^].
+=== (*) A personal note...
+
+One day I was a heavy user of all Adobe software. Flash (by FutureSplash, acquired by Macromedia, acquired by Adobe) was my introduction into multimedia and I learned a lot by using it, even for business applications with Flex. But since that time, many years ago, Adobe turned into an evil company. From personal experience and what people share online, you need to be aware they have both a https://www.reddit.com/r/assholedesign/comments/10946en/forgot_to_cancel_my_free_trial_for_adobe_now_they/[bad reputation for how difficult it can be to cancel a (trial) subscription^], and https://www.quora.com/Is-Adobe-spying-on-you-with-their-software?share=1[their software should be handled as spyware^].
+
+There are extremely good alternatives to Adobe, which are free or cheaper. These are some of my favorites:
+
+* Photoshop > https://www.photopea.com/[Photopea^] (online editor)
+* Premiere > https://www.blackmagicdesign.com/products/davinciresolve/[Blackmagic Design DaVinci Resolve^]
+* Audition > also DaVince Resolve, and https://www.audacityteam.org/[Audacity^]
+* Illustrator > https://inkscape.org/[Inkscape^]
+* Dreamweaver > https://www.jetbrains.com/idea/[JetBrains IntelliJ IDEA^] and https://code.visualstudio.com/[Visual Studio Code (VSC)^], or https://vscodium.com/[VSCodium, a version of VSC without telemetry and tracking]
+
+Are all of these fully OK in regard to privacy etc.? Maybe not, but they provide the tools I need for the "price" I want to pay...
