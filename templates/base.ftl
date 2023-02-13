@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"
           integrity="sha256-AbA177XfpSnFEvgpYu1jMygiLabzPCJCRIBtR5jGc0k=" crossorigin="anonymous">
     <link href="${content.rootpath}favicon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/></pre></li>
 </head>
 
 <body>
@@ -34,6 +35,7 @@
                     <li class="nav-item"><a class="nav-link" href="${content.rootpath}library.html">Lottie4J library</a></li>
                 </ul>
                 <ul class="navbar-nav">
+                    <div id="docsearch"></div>
                     <li class="p-2"><a style="color: #55acee" href="https://foojay.social/@lottie4j" rel="me" role="button" target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
                     <li class="p-2"><a style="color: #333" href="https://github.com/lottie4j" role="button" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
@@ -52,6 +54,19 @@
             integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha256-xLI5SjD6DkojxrMIVBNT4ghypv12Xtj7cOa0AgKd6wA=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+
+
+    <script type="text/javascript">
+        docsearch({
+            appId: "89HGPXU7MI",
+            apiKey: "3b2538e88f47ca3652bbe7a098915a00",
+            indexName: "lottie4j",
+            container: "#docsearch",
+            debug: false
+        });
+    </script>
 </body>
 </html>
 </#macro>

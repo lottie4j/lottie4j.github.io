@@ -14,6 +14,8 @@ Developer info is provided on https://lottiefiles.github.io/lottie-docs/Introduc
 
 The structure of an animation is described on https://lottiefiles.github.io/lottie-docs/breakdown/bouncy_ball/[lottiefiles.github.io/lottie-docs/breakdown/bouncy_ball^].
 
+In https://twitter.com/reallynattu/status/1622596648504537094[this Twitter thread], Nattu, Co-founder & CTO of LottieFiles, explains the advantages of this animation format compared to others.
+
 === Lottie file format
 
 Two formats are used:
