@@ -15,6 +15,18 @@ Provide a set of Java libraries that can
 
 == Current status
 
+=== 20230222
+
+Hmm, the Lottie data format is harder to understand than I hoped... I already knew it's not a logical nested structure, but actually there is a lot of references to data in other structures inside the JSON.
+
+So, to be honest, I'm in the typical worst point that every project faces...
+
+image::/img/20230222_worst_point.png[Graph showing the emotions in a project]
+
+But on the bright side, we have our first correct color and stroke width output! The right pink border is the same as on the left, so I know where to find some info to be used in the drawing...
+
+image::/img/20230222_first_color.png[Graph showing the emotions in a project]
+
 === 20230206
 
 Based on a https://github.com/lottie4j/lottie4j/commit/28cefb9c8ba59ef420954c39ae9d8ade838d8e90#diff-166d070cf182766be173a83b3675cb8ab2eaac80eea301d965f9af7c455fd3ac[LottieFile with an animation^], created with https://createwithflow.com[Flow^], the Bezier object needed to be extended in two different objects: FixedBezier and AnimatedBezier.
