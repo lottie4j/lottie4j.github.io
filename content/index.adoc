@@ -23,7 +23,7 @@ So, to be honest, I'm in the typical worst point that every project faces...
 
 image::/img/20230222_worst_point.png[Graph showing the emotions in a project]
 
-(Graph from https://bettersheepdog.blogspot.com/2015/10/initiation.html)
+(Graph from https://bettersheepdog.blogspot.com/2015/10/initiation.html[bettersheepdog.blogspot.com^])
 
 But on the bright side, we have our first correct color and stroke width output! The right pink border is the same as on the left, so I know where to find some info to be used in the drawing...
 
