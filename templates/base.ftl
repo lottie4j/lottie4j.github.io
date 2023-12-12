@@ -48,6 +48,8 @@
 
         <hr />
         Last website build: ${published_date?string("dd/MM/yyyy HH:mm")} (UTC)
+        <br/>
+        Visitor counter by <a href="https://clicky.com/101436354" target="_blank" rel="noopener">Clicky</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"
@@ -56,7 +58,6 @@
             integrity="sha256-xLI5SjD6DkojxrMIVBNT4ghypv12Xtj7cOa0AgKd6wA=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
-
 
     <script type="text/javascript">
         docsearch({
@@ -67,6 +68,8 @@
             debug: false
         });
     </script>
+
+    <script async data-id="101436828" src="//static.getclicky.com/js"></script>
 </body>
 </html>
 </#macro>
