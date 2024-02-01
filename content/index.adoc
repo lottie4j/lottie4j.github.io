@@ -19,7 +19,7 @@ Provide a set of Java libraries that can
 
 I'm working on this, but slowly... Not sure if I should create a full JavaFX player myself or integrate with e.g. the work https://twitter.com/Alessio_Vinerbi/status/1730177673316503598[Alessio Vinerbi is doing with MoonsonFX^], his "After Effects"-like application written in JavaFX. Maybe a conversion from Lottie-format to the format he is using would be a good approach... In the meantime, whenever I have time, I dive deeper into the Lottie format to fully understand it.
 
-This announcement seems to be pretty important: https://www.linuxfoundation.org/press/announcing-lottie-animation-community[Announcing Lottie as a Standard with Lottie Animation Community (LAC) Format Specification Body^]. It seems Lottie is getting a big push to become an even more "efficient, scalable and cross-platform animated vector graphics technology and open file format". To be continued...
+This announcement seems to be pretty important: https://www.linuxfoundation.org/press/announcing-lottie-animation-community[Announcing Lottie as a Standard with Lottie Animation Community (LAC) Format Specification Body^]. Lottie gets a big push to become an even more "efficient, scalable and cross-platform animated vector graphics technology and open file format". To be continued...
 
 === 20230222
 
